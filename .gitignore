@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.*
+
+# Private cryptographic keys
+*.key
+*.pem
+private/
+
+# Generated certificates
+certs/*.key
+certs/*.pem
+
+# Runtime logs
+logs/
+*.log
+
+# Generated benchmark results
+results/
+
+# IDE
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+
+# OS
+.DS_Store
