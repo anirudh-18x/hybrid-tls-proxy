@@ -13,19 +13,18 @@ The proxy acts as an intermediate layer between a legacy client and a backend se
 
 - TLS 1.3
 - RSA-2048 certificate for authentication
-- X25519 for key establishment
+- X25519 classical key establishment
 
 ### Hybrid Post-Quantum TLS
 
 - TLS 1.3
 - RSA-2048 certificate for authentication
-- X25519 + ML-KEM-768 hybrid key establishment
-- X25519MLKEM768 hybrid group
+- X25519 + ML-KEM-768 (X25519MLKEM768) hybrid key establishment
 
 ## Main Components
 
-- TLS Proxy
 - Legacy Client Simulator
+- TLS Proxy
 - Backend Server
 - Classical TLS configuration
 - Hybrid Post-Quantum TLS configuration
