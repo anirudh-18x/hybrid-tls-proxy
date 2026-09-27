@@ -6,18 +6,6 @@ This project implements a TLS proxy that enables legacy applications to communic
 
 The proxy acts as an intermediate layer between a legacy client and a backend server. It terminates the TLS connection from the legacy application and establishes a new TLS connection with the backend using either classical or hybrid post-quantum cryptography.
 
-## Architecture
-
-Legacy Application
-        |
-        | TLS
-        v
-   TLS Proxy
-        |
-        | TLS 1.3
-        | Classical / Hybrid
-        v
-Backend Application
 
 ## Security Modes
 
