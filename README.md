@@ -2,9 +2,7 @@
 
 ## Project Overview
 
-This project implements a TLS proxy that enables legacy applications to communicate securely with modern backend services using hybrid classical and post-quantum cryptography.
-
-The proxy acts as an intermediate layer between a legacy client and a backend server. It terminates the TLS connection from the legacy application and establishes a new TLS connection with the backend using either classical or hybrid post-quantum cryptography.
+This project implements a TLS proxy that enables legacy applications to communicate securely with modern backend services using hybrid classical and post-quantum cryptography. The proxy acts as an intermediate layer between a legacy client and a backend server. It terminates the TLS connection from the legacy application and establishes a new TLS connection with the backend using either classical or hybrid post-quantum cryptography.
 
 
 ## Security Modes
@@ -41,4 +39,5 @@ The proxy acts as an intermediate layer between a legacy client and a backend se
 - ML-KEM-768
 - Streamlit
 - Git
+- JSON
 
